@@ -4,7 +4,7 @@
 
 
 
-```
+```php
 //测试模板消息
 public function commithf($pid,$nickname,$content){
     //任务完成通知 start
@@ -53,7 +53,7 @@ public function commithf($pid,$nickname,$content){
 }
 ```
 
-```
+```php
 //发送模板消息
 /**
 *@param $applet_id 小程序ID
@@ -93,7 +93,7 @@ public function send_template($openid,$template_id,$formid,$datainfo,$user_id,$p
 }
 ```
 
-```
+```php
 //get请求
 public function curl_get($url){
     $curl = curl_init();
